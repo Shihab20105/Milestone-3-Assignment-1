@@ -1,0 +1,87 @@
+/*----------------------
+Common CSS
+-----------------------------*/
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bikers-zone-btn-outline-success {
+    background: #E76F51;
+    display: flex;
+    padding: 10px 24px;
+    align-items: center;
+    gap: 8px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+/*------------------------------
+Banner
+------------------------------------*/
+.banner {
+    background-color:brown;
+    width: auto;
+    height: 690px;
+}
+
+.banner-items {
+    display: flex;
+    justify-content: center;
+}
+
+.header-bike {
+    width: 552px;
+    height: 447px;
+    background-color: #E76F51;
+}
+
+.bike-quality {
+    width: 480px;
+    height: 22px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.bike-name {
+    width: 456px;
+    height: 66px;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 600;
+
+}
+
+.bike-description {
+    width: 456px;
+    height: 72px;
+    color: #E0E0E0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.bike-btn {
+    display: flex;
+    width: 168px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #E76F51;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.dotted-box {
+    width: 101px;
+    height: 101px;
+    
+}
