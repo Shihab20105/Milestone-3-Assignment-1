@@ -23,6 +23,9 @@ Common CSS
 /*------------------------------
 Banner
 ------------------------------------*/
+.bikers-zone-bg-warning {
+    background: #264653;
+}
 
 .bike-quality {
     width: 480px;
@@ -66,8 +69,18 @@ Banner
 
 .dotted-box {
     position: relative;
-    width: 101px;
-    height: 101px;
-    margin-right: 50px;
-    
+    width: 95px;
+    height: 95px;
+    margin-left: 1180px;
+    margin-top: -772px;
+
+}
+
+/*------------------------
+Featured Bikes
+-------------------------------*/
+.bikers-zone-border-danger{
+    width: 58.5px !important;
+    height:0px !important;
+    color: red !important;
 }
