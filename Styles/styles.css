@@ -5,7 +5,7 @@ Common CSS
     font-family: 'Poppins', sans-serif;
 }
 
-.bikers-zone-btn-outline-success {
+.bikers-zone-btn-outline {
     background: #E76F51;
     display: flex;
     padding: 10px 24px;
@@ -52,7 +52,7 @@ Banner
     font-weight: 300;
 }
 
-.bike-btn {
+.bikers-zone-btn-outline-secondary {
     display: flex;
     width: 168px;
     padding: 10px;
@@ -79,8 +79,49 @@ Banner
 /*------------------------
 Featured Bikes
 -------------------------------*/
-.bikers-zone-border-danger{
+.bikers-zone-border-danger {
     width: 58.5px !important;
-    height:0px !important;
+    height: 0px !important;
     color: red !important;
+}
+
+/*------------------------
+Latest News
+---------------------------*/
+.card-text {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.bikers-zone-btn-outline-danger {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #E76F51;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #E76F51 ;
+    border-radius: 5px;
+}
+.bikers-zone-card-btn-outline-danger {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #E76F51;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
 }
