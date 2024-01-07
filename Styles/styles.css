@@ -129,8 +129,18 @@ Latest News
 Clients Says
 ----------------------------------*/
 .clients-says{
-    color: #E76F51; ;
+    color: #E76F51;
 }
 .star{
     color: #E77C40;
+}
+/*-------------------------------
+Frequently Asked Questions
+-------------------------------------*/
+.question{
+    color: #E76F51;
+}
+.frame-img{
+    width: 432px;
+    height: 424px;
 }
