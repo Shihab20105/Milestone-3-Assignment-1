@@ -107,9 +107,10 @@ Latest News
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    border: 1px solid #E76F51 ;
+    border: 1px solid #E76F51;
     border-radius: 5px;
 }
+
 .bikers-zone-card-btn-outline-danger {
     display: flex;
     width: 150px;
@@ -125,22 +126,54 @@ Latest News
     font-weight: 500;
     border: none;
 }
+
 /*----------------------------
 Clients Says
 ----------------------------------*/
-.clients-says{
+.clients-says {
     color: #E76F51;
 }
-.star{
+
+.star {
     color: #E77C40;
 }
+
 /*-------------------------------
 Frequently Asked Questions
 -------------------------------------*/
-.question{
+.question {
     color: #E76F51;
 }
-.frame-img{
+
+.frame-img {
     width: 432px;
     height: 424px;
+}
+
+/*-----------------------------------------
+Footer
+-----------------------------------------------*/
+.bikers-zone-dl {
+    width: 120px;
+    height: 26px;
+    background-color: #E77C40;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bikers-zone-license {
+    width: 60px;
+    height: 26px;
+    background-color: aqua;
+    margin-left: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bikers-zone-all {
+    width: 220px;
+    height: 24px;
+    background-color: blueviolet;
+    font-size: 14px;
+    font-weight: 400;
 }
