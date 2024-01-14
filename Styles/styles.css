@@ -25,33 +25,11 @@ Banner
 ------------------------------------*/
 .bikers-zone-bg-warning {
     background: #264653;
-}
-
-.bike-quality {
-    width: 480px;
-    height: 22px;
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 300;
-}
-
-.bike-name {
-    width: 456px;
-    height: 66px;
-    color: #FFF;
-    font-size: 48px;
-    font-weight: 600;
 
 }
-
-.bike-description {
-    width: 456px;
-    height: 72px;
-    color: #E0E0E0;
-    font-size: 16px;
-    font-weight: 300;
+.navbar-toggler{
+    background-color: #FFF !important;
 }
-
 .bikers-zone-btn-outline-secondary {
     display: flex;
     width: 168px;
@@ -71,9 +49,21 @@ Banner
     position: relative;
     width: 95px;
     height: 95px;
-    margin-left: 1180px;
-    margin-top: -772px;
+    margin-left: -100px;
+    margin-top: -400px;
 
+}
+
+.banner_img {
+    position: relative;
+    z-index: 5;
+}
+
+.banner_small_img {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    z-index: -1;
 }
 
 /*------------------------
@@ -83,6 +73,9 @@ Featured Bikes
     width: 58.5px !important;
     height: 0px !important;
     color: red !important;
+}
+.row{
+    margin-right: auto !important;
 }
 
 /*------------------------
@@ -153,27 +146,19 @@ Frequently Asked Questions
 /*-----------------------------------------
 Footer
 -----------------------------------------------*/
-.bikers-zone-dl {
-    width: 120px;
-    height: 26px;
-    background-color: #E77C40;
-    font-size: 16px;
-    font-weight: 400;
+.bikers-zone-custom-gap {
+    margin-right: 24px;
 }
 
-.bikers-zone-license {
-    width: 60px;
-    height: 26px;
-    background-color: aqua;
-    margin-left: 24px;
-    font-size: 16px;
-    font-weight: 400;
+footer {
+    font-size: 16px !important;
+}
+.social-link-footer {
+    margin: 0;
+    padding: 0;
+}
+.bikers-zone-footer li {
+    display: inline-block;
+    margin-right: 24px;
 }
 
-.bikers-zone-all {
-    width: 220px;
-    height: 24px;
-    background-color: blueviolet;
-    font-size: 14px;
-    font-weight: 400;
-}
